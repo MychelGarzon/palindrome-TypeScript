@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nova Square', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./assets/background.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem;
+  margin: 5rem;
+  display: flex;
+  text-align: justify;
+  color: whitesmoke;
+}
+
+h1,
+h2 {
+  font-size: xx-large;
+  margin: 2rem;
+}
+
+p,
+input {
+  color: whitesmoke;
+  font-size: 1rem;
+  line-height: 1.1;
+  margin: 2rem;
+  background-color: transparent;
+}
+
+input {
+  width: 15rem;
+  height: 4rem;
+  background-color: whitesmoke;
+  color: rgb(45, 39, 43);
+  text-align: center;
+}
